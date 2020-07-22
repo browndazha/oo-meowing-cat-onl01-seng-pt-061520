@@ -1,6 +1,6 @@
 ## code your solution here.
 class Cat
-   = Struct.new(:attr_names) do
+  attr_accessor :name
 
   def meow
    puts  "meow!"
